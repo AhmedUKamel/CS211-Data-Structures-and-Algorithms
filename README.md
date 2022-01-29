@@ -4,6 +4,12 @@ ___
 ___
 ### Using Java
 ___
-1. Stack
+1. Stack using:
    1. Array
    2. Linked List
+2. Queue using:
+   1. Array:
+      1. Linear queue
+      2. Circular queue
+   2. Linked list
+      1. Linked queue

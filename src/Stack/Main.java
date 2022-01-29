@@ -1,6 +1,9 @@
-import Stack.*;
+package Stack;
+import java.util.Scanner;
+import javax.script.ScriptException;
 public class Main {
-    public static void main(String[] args) {
+    public static Scanner sc = new Scanner(System.in);
+    public static void main(String[] args) throws ScriptException {
 //        StackUsingArray <Integer> stack1 = new StackUsingArray<>(5);
 //        System.out.println("Is empty : " + stack1.isEmpty());
 //        System.out.println("Size : " + stack1.size());
@@ -31,5 +34,16 @@ public class Main {
 //        System.out.println("Size : " + stack2.size());
 //        System.out.println("Popped element : " + stack2.pop());
 //        stack2.display();
+
+//        System.out.print("Enter expression : ");
+//        if (Applications.isBalanced(sc.next()))
+//            System.out.println("Balanced parentheses");
+//        else
+//            System.out.println("Not balanced parentheses");
+
+//        String infix = new String("2 + ((8 + 2 * 3) / 2) - 1");
+//        String postfix = new String(Applications.infixToPostfix(infix));
+//        System.out.println("Infix : " + infix + " = " + (2 + ((8 + 2 * 3) / 2) - 1));
+//        System.out.println("Postfix : " + postfix + " = " + Applications.resultForPostfix(postfix));
     }
 }

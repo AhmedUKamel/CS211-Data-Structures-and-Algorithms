@@ -2,13 +2,11 @@ package Stack;
 public class StackUsingArray <type> {
     // attributes
     private int top;
-    private int size;
     private type[] arr;
 
     // constructors
     public StackUsingArray(int size) {
         this.top = -1;
-        this.size = size;
         this.arr = (type[]) new Object[size];
     }
 
@@ -45,7 +43,7 @@ public class StackUsingArray <type> {
     }
 
     public boolean isFull() {
-        return top == this.size - 1;
+        return top == this.arr.length - 1;
     }
 
     public int capacity() {
@@ -53,6 +51,6 @@ public class StackUsingArray <type> {
     }
 
     public int size() {
-        return this.size;
+        return this.arr.length;
     }
 }
