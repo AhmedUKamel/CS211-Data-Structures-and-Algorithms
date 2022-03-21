@@ -1,54 +1,6 @@
 package List;
 public class Main {
     public static void main(String[] args) {
-        /* ---------------------------- Singly linked list test cases ---------------------------- */
-//        ArrayList <String> list = new ArrayList<>(6);
-//        System.out.println("Before adding any element");
-//        System.out.println("Capacity : " + list.capacity());
-//        System.out.println("Size : " + list.size());
-//        System.out.println("Is empty : " + list.isEmpty());
-//        System.out.println("Is full : " + list.isFull());
-//        list.display();
-//        System.out.println("----------------------------");
-//        System.out.println("---> Insertion <---");
-//        System.out.println("Insert 2 elements from begin");
-//        list.insertFirst("CS");
-//        list.insertFirst("IT");
-//        System.out.println("Insert 2 elements from end");
-//        list.insert("IS");
-//        list.insert("MM");
-//        System.out.println("Insert 'AA' if no duplicate");
-//        list.insertNoDublicate("AA");
-//        System.out.println("Insert 'MM' if no duplicate");
-//        list.insertNoDublicate("MM");
-//        System.out.println("Insert 'xx' in index 3");
-//        list.insert(3, "xx");
-//        System.out.println("Is full : " + list.isFull());
-//        System.out.println("Is empty : " + list.isEmpty());
-//        System.out.println("Capacity : " + list.capacity());
-//        list.display();
-//        System.out.println("----------------------------");
-//        System.out.println("---> Update <---");
-//        System.out.println("Update index 2 to 'Updated'");
-//        list.update(2, "Updated");
-//        System.out.println("Update index 1 to 'Specific'");
-//        list.update(1, "Specific");
-//        list.display();
-//        System.out.println("----------------------------");
-//        System.out.println("---> Search <---");
-//        System.out.println("Search for 'Updated'");
-//        System.out.println("Index for 'Updated' is " + list.search("Updated"));
-//        list.display();
-//        System.out.println("----------------------------");
-//        System.out.println("---> Reset <---");
-//        System.out.println("Clear array");
-//        list.clear();
-//        System.out.println("Capacity : " + list.capacity());
-//        System.out.println("Size : " + list.size());
-//        System.out.println("Is empty : " + list.isEmpty());
-//        System.out.println("Is full : " + list.isFull());
-//        list.display();
-
 
         /* ---------------------------- Singly linked list test cases ---------------------------- */
 //        SinglyLinkedList <Character> list = new SinglyLinkedList<>();

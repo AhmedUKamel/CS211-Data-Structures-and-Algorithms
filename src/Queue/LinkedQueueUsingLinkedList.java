@@ -8,12 +8,6 @@ public class LinkedQueueUsingLinkedList <type> {
     private Node front;
     private Node rear;
     private int ctr;
-    // constructors
-    public LinkedQueueUsingLinkedList() {
-        front = null;
-        rear = null;
-        ctr = 0;
-    }
     // methods
 
     public void enqueue(type element) {
@@ -91,6 +85,6 @@ public class LinkedQueueUsingLinkedList <type> {
     }
 
     public boolean isEmpty() {
-        return rear == null;
+        return ctr == 0;
     }
 }
