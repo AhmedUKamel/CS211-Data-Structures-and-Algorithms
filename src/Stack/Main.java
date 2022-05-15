@@ -1,6 +1,10 @@
 package Stack;
 import java.util.Scanner;
 import javax.script.ScriptException;
+import static Stack.Applications.*;
+
+//import static Stack.Applications.infixToPostfix;
+
 public class Main {
     public static Scanner sc = new Scanner(System.in);
     public static void main(String[] args) throws ScriptException {
@@ -45,5 +49,12 @@ public class Main {
 //        String postfix = new String(Applications.infixToPostfix(infix));
 //        System.out.println("Infix : " + infix + " = " + (2 + ((8 + 2 * 3) / 2) - 1));
 //        System.out.println("Postfix : " + postfix + " = " + Applications.resultForPostfix(postfix));
+
+        System.out.print("Enter expression: ");
+
+        String infix = sc.next();
+
+        System.out.println(infixToPostfix(infix));
+
     }
 }
